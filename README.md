@@ -1,3 +1,3 @@
 # Web_Calculate
-一个计算器
-代码和文件在master分支
+
+一个简单的计算器
