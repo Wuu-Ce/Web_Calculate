@@ -1,0 +1,84 @@
+
+
+body.base
+{
+    background-image: url(../img/BG.webp) ;
+    margin-top: 0;
+}
+
+.Cal_Background
+{
+    margin:auto;
+    width:500px;
+    height:650px;
+    background-image: url(../img/Cal.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Buttons 
+{
+    display:inline-block;
+    width:80px;
+    height:40px;
+    border:none;
+    background-image:url(../img/btn.png);
+    background-size:80px 40px;
+    background-repeat:no-repeat;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    font-size:16px;
+    font-weight:bold;
+    line-height:20px ;
+    color:rgb(238, 100, 66);
+    border-radius: 5px;
+}
+input:hover.Buttons
+{
+
+    color:rgb(22, 165, 184);
+}
+input:active.Buttons
+{
+    background-image:url(../img/btn_act.png);
+    padding-top:6px;
+}
+
+.display
+{
+    display:inline-block;
+    margin:40px 80px 80px 80px;
+    padding-top:40px;
+    text-align: end;
+    width:360px;
+    height:80px;
+}
+input.display 
+{
+    width:360px;
+    height:60px;
+    margin: auto;
+    border:none;
+    font-size:25px;
+    font-weight:700;
+    color:rgb(224, 125, 95);
+    text-decoration: none;
+    background:none;
+}
+input:focus.display
+{
+    outline:none;
+}
+
+.btn_box
+{
+    display:grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(5,20%);
+    margin:auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    width:360px;
+    height:250px;
+}

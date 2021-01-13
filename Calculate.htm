@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/Calculate_Edit.css">
+    <script src="./js/Cal.js"></script>
+</head>
+<body class="base">
+    <div class="Cal_Background">
+        <div class="display">
+            <input type="text" id="display_main" name="display_main" class="display">
+        </div>
+        <div class="btn_box">
+            <input type="button" id="Back" onclick="BackSpace()" value="Back" class="Buttons">
+            <input type="button" id="C" onclick="clearNum()" value="C" class="Buttons">
+            <input type="button" id="%" onclick="Calculator(this.id)" value="%" class="Buttons">
+            <input type="button" id="/" onclick="Calculator(this.id)" value="/" class="Buttons">
+
+            <!--第二排-->
+            <input type="button" id="7" onclick="Calculator(this.id)" value="7" class="Buttons">
+            <input type="button" id="8" onclick="Calculator(this.id)" value="8" class="Buttons">
+            <input type="button" id="9" onclick="Calculator(this.id)" value="9" class="Buttons">
+            <input type="button" id="*" onclick="Calculator(this.id)" value="*" class="Buttons">
+            
+            <!--第三排-->
+            <input type="button" id="4" onclick="Calculator(this.id)" value="4" class="Buttons">
+            <input type="button" id="5" onclick="Calculator(this.id)" value="5" class="Buttons">
+            <input type="button" id="6" onclick="Calculator(this.id)" value="6" class="Buttons">
+            <input type="button" id="-" onclick="Calculator(this.id)" value="-" class="Buttons"> 
+
+            <!--第四排-->
+            <input type="button" id="1" onclick="Calculator(this.id)" value="1" class="Buttons">
+            <input type="button" id="2" onclick="Calculator(this.id)" value="2" class="Buttons">
+            <input type="button" id="3" onclick="Calculator(this.id)" value="3" class="Buttons">
+            <input type="button" id="+" onclick="Calculator(this.id)" value="+" class="Buttons">
+
+
+            <!--第五排-->
+            <input type="button" id="00" onclick="Calculator(this.id)" value="00" class="Buttons">
+            <input type="button" id="0" onclick="Calculator(this.id)" value="0" class="Buttons">
+            <input type="button" id="." onclick="Calculator(this.id)" value="." class="Buttons">
+            <input type="button" id="eva" onclick="GetResult()" value="=" class="Buttons">
+        </div>
+    </div>
+</body>
+</html>
